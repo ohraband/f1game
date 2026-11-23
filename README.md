@@ -9,15 +9,15 @@ Backend (http://127.0.0.1:8000):
     cd backend
     python -m venv .venv && source .venv/bin/activate
     pip install -r requirements.txt
-    python manage.py makemigrations races   # re-run after updating: models changed
-    python manage.py migrate
-    python manage.py runserver   # Daphne (ASGI) serves both HTTP and WebSockets
+    python3 manage.py makemigrations races   # re-run after updating: models changed
+    python3 manage.py migrate
+    python3 manage.py runserver   # Daphne (ASGI) serves both HTTP and WebSockets
 
 Frontend (http://localhost:5173, proxies /api to Django):
 
     cd frontend
     npm install
-    npm run dev
+    npm run dev -- --host
 
 ## API
 
