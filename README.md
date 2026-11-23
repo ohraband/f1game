@@ -42,3 +42,18 @@ by `POST /start/` and React plays back the returned replay.
 `GET /api/tracks/` also returns `safe` (player's safe speed at each path point), `step` and `brake`. React uses them
 for the braking guide: a red-to-green corner-speed heat map on the asphalt, plus a live yellow line (red when you must
 brake right now) showing where braking has to start for your current speed, with the target speed for the corner.
+
+
+### Driver selection
+![Image 1](images/driver.jpg)
+
+### Racce
+![Image 3](images/race2.jpg)
+
+### Replay
+![Image 2](images/race.jpg)
+
+
+### Without braking guide
+![Image 4](images/no_braking_guide.jpg)
+
