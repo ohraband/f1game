@@ -1,6 +1,6 @@
 # Mini F1 (Django + React)
 
-Top-down F1 race game. Django REST Framework API + React (Vite) front end.
+Vibe-coded top-down F1 race game. Django REST Framework API + React (Vite) front end.
 
 ## Run
 
